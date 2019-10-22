@@ -25,7 +25,7 @@ namespace Gestione_Thread
 
             Console.WriteLine("Main Thread");
 
-            
+          
             Console.ReadLine();
         }
     }

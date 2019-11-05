@@ -29,24 +29,7 @@ namespace Thread5
 
             Console.WriteLine("Termina applicazione");
 
-            var workerThread1 = new Thread(() =>
-            {
-                try
-                {
-                    Console.WriteLine("inizio di un thread molto lungo");
-                    Thread.Sleep(5000);
-                    Console.WriteLine("Termine worker thread");
-                }
-                catch (ThreadAbortException ex)
-                {
-
-                }
-
-
-            });
-
-            workerThread1.IsBackground = false;
-            workerThread1.Priority = ThreadPriority.Lowest;
+         
 
 
         }
